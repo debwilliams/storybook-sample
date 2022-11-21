@@ -1,0 +1,32 @@
+{
+  "name": "storybook-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue": "^6.5.13",
+    "babel-loader": "^8.3.0",
+    "vue-loader": "^15.10.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-vue": "^2.23.1",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "scripts": {
+    "test": "yarn test",
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook -o docs"
+  },
+  "description": "Just a sample component library",
+  "author": "Debbie"
+}
